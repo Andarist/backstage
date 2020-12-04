@@ -77,8 +77,6 @@ describe('<ProductEntityDialog/>', () => {
             open
             entity={atomicEntity}
             onClose={jest.fn()}
-            selectedLabel={null}
-            setSelectedLabel={jest.fn()}
           />,
         ),
       ),
@@ -92,8 +90,6 @@ describe('<ProductEntityDialog/>', () => {
           open
           entity={singleBreakdownEntity}
           onClose={jest.fn()}
-          selectedLabel={null}
-          setSelectedLabel={jest.fn()}
         />,
       ),
     );
@@ -107,8 +103,6 @@ describe('<ProductEntityDialog/>', () => {
           open
           entity={multiBreakdownEntity}
           onClose={jest.fn()}
-          selectedLabel={null}
-          setSelectedLabel={jest.fn()}
         />,
       ),
     );
@@ -124,8 +118,6 @@ describe('<ProductEntityDialog/>', () => {
           open
           entity={multiBreakdownEntity}
           onClose={jest.fn()}
-          selectedLabel="deployment"
-          setSelectedLabel={jest.fn()}
         />,
       ),
     );
